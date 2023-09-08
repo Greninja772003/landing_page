@@ -97,7 +97,6 @@ padding: 20px 2px;
 #block1{
     display: flex;
     flex: 1;
-    background-color: green;
     flex-direction: column;
 }
 .b1_head{
@@ -106,21 +105,92 @@ padding: 20px 2px;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
 }
 .inside{
     display: flex;
  flex: 2;   
+ flex-direction: column;
+justify-content: space-between;
+}
+.images{
+    display: flex;
+    /* flex: 1; */
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.image{
+    border: solid blue 3px;
+    border-radius: 10px;
+    max-width: 130px;
+    height: 140px;
+    flex: 1;
+    
+}
+.descrip{
+    display: flex;
+    justify-content:space-evenly;
+    flex: 1;
+    gap: 45px;
+    align-items:flex-start;
+    text-align: center;
+    
+}
+.image-txt{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 145px;
 }
 #block2{
- background-color: yellow;
+ background-color: rgba(196, 196, 196, 0.699);
     display: flex;
     flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b2-head{
+padding: 5px;
+width: 700px;
+font-size: 35px;
+}
+.b2-foot{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 25px;
+    width: 700px;
 }
 #block3{
-    background-color: orange;
     display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    background-color: #2474f5;
+    flex: 1;
+   max-height: 100px;
+   color: white;
+   padding: 40px;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 10px;
+}
+.txt-1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.log-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 3px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100px;
+    height: 25px;
 }
 .footer{
  background-color: orange;
